@@ -96,7 +96,13 @@ section {
 
 
 .calculator .select {
-        position: relative;
+    position: relative;
+    font-size: 42px;
+}
+
+.select {
+    width: 100%;
+    margin: 20px;
 }
 
 .calculator__hour {
@@ -104,11 +110,12 @@ section {
 }
 
 .calculator__time-wrap {
-    letter-spacing: .7px;
+    /*letter-spacing: .7px;*/
     font-size: 72px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 30px 7px;
+    margin: 10px;
 }
 
 .calculator .select__dropdown {
@@ -149,17 +156,28 @@ section {
     font-size: 48px;
     letter-spacing: .5px;
     font-stretch: condensed;
+    padding: 30px 7px;
+    width: 100%;
 }
 
 .calculator__time {
-    display: -ms-flexbox;
+    /*display: -ms-flexbox;*/
     display: flex;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-top: 40px;
+    /*width: 100%;*/
 }
+
+.s {
+    /*position: center;*/
+    /*width: 40px;*/
+    /*height: 60px;*/
+    font-size: 150%;
+}
+
 
 .calculator__btn {
     width: 254px;
@@ -286,13 +304,13 @@ section {
     display: none;
 }
 
-.result__time {
+.result__time, .result__timeZ{
     border-radius: 5px;
     border: 1px solid #009aff;
     padding: 10px;
     font-size: 36px;
-    letter-spacing: .4px;
-    display: inline-block;
+    /*letter-spacing: .4px;*/
+    display: inline-flex;
     margin-bottom: 12px;
 }
 
@@ -305,7 +323,7 @@ section {
 }
 
 
-.result__restart1 {
+.result__restart1, .result__restart2 {
     border-radius: 5px;
     border: 1px solid #009aff;
     padding: 10px;
@@ -318,19 +336,5 @@ section {
     margin-left: 45%;
     margin-right: 45%;
 }
-
-.result__restart2 {
-    border-radius: 5px;
-    border: 1px solid #009aff;
-    padding: 10px;
-    /*font-size: 36px;*/
-    letter-spacing: .4px;
-    display: block;
-    margin-bottom: 12px;
-    cursor: pointer;
-    margin-left: 45%;
-    margin-right: 45%;
-}
-
 
 
