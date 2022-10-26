@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    left: 0;
+    right: 0;
+
+}
+
+li{
+    margin-top: 31px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 18px;
+    font-family: Montserrat, serif;
+    text-decoration: underline;
+}
+
+.Name{
+    /*margin-left: 188px;*/
+    /*margin-right: 188px;*/
+    font-family: "Berlin Sans FB", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+#about-in-section{
+    margin-top: 348px;
+    margin-left: 360px;
+    margin-right: 360px;
+    font-size: 30px;
+    text-align:center;
+}
+
+footer ul li{
+    text-decoration: none;
+    padding: 80px 70px 20px 25px;
+    left: 0;
+    right: 0;
+}
+
+
+img{
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+}
+
+a {
+    text-decoration:none;
+    color: #666;
+}
+
