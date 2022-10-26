@@ -1,0 +1,99 @@
+/*ul{*/
+/*    display: inline-flex;*/
+/*    flex-direction: row;*/
+/*    list-style-type: none;*/
+/*    left: 0;*/
+/*    right: 0;*/
+
+/*}*/
+
+/*li{*/
+/*    margin-top: 31px;*/
+/*    margin-left: 60px;*/
+/*    margin-right: 60px;*/
+/*    font-size: 18px;*/
+/*    font-family: Montserrat, serif;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.Name{*/
+/*    !*margin-left: 188px;*!*/
+/*    !*margin-right: 188px;*!*/
+/*    font-family: "Berlin Sans FB";*/
+/*    font-weight: bold;*/
+/*    font-size: 30px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*#about-in-section{*/
+/*    margin-top: 348px;*/
+/*    margin-left: 25%;*/
+/*    margin-right: 20%;*/
+/*    font-size: 30px;*/
+/*    text-align:center;*/
+/*}*/
+html {
+    scroll-behavior: smooth;
+}
+
+#anchor{
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 30px;
+}
+
+.Group-News{
+    padding: 130px;
+}
+
+.Group-News-block1{
+    display: inline-flex;
+    text-align:center;
+}
+
+.Group-News-block2{
+    display: inline-flex;
+    float: right;
+}
+
+#Tg{
+    display: inline-block;
+    padding: 56px 34% 56px 28%;
+    text-align:center;
+}
+
+.Group-News-block1{
+    background: #D9D9D9;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+a {
+    text-decoration:none;
+    color: #666;
+}
+
+/*.Group-News-block2{*/
+
+/*}*/
+
+/*footer{*/
+/*    display: inline-flex;*/
+/*    flex-direction: row;*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*footer ul li{*/
+/*    text-decoration: none;*/
+/*    padding: 80px 70px 20px 25px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*}*/
+
+
+/*img{*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    padding: 8px;*/
+/*}*/
